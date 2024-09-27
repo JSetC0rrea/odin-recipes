@@ -1,14 +1,28 @@
 * {
     text-align: center;
 }
+
 * {
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: bolder;
 
     color: white;
-    background-color: rgb(17, 76, 178);
+    background-color: blue;
 }
+
+
+ul, li {
+list-style-type: none;
+padding:10px;
+}
+
 img {
-    height: auto;
-    width: 150px;
+    border: 0px;
+    border-radius: 10%;
+    height: 200px;
+    width: 200px;
+}
+a{
+    border: 10px;
+    padding: 10px;
 }
